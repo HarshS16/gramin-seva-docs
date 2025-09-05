@@ -17,11 +17,27 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Healthcare primary colors - calming blue-green */
+    --primary: 200 100% 35%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 200 100% 85%;
+    --primary-dark: 200 100% 25%;
 
+    /* Healthcare secondary - warm accent */
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
+
+    /* Healthcare success - health green */
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+
+    /* Healthcare warning - attention orange */
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+
+    /* Healthcare emergency - medical red */
+    --emergency: 0 84% 60%;
+    --emergency-foreground: 0 0% 100%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
@@ -34,7 +50,7 @@ All colors MUST be HSL.
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 200 100% 35%;
 
     --radius: 0.5rem;
 
